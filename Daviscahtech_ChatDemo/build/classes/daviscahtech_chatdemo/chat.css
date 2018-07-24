@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-May-2018, 10:33:17
+    Author     : davis
+*/
+
+.buttons1 {
+    -fx-background-color: floralwhite;
+    -fx-background-radius: 6;
+    -fx-border-color:  #009900;
+    -fx-font-size: 12px;
+    -fx-font-weight:bold;
+    -fx-border-width: 2px;    
+    -fx-text-fill:  black;
+    -fx-border-radius: 5; 
+    
+    
+}
+
+
+.buttons1:hover{
+    -fx-background-color: chocolate;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: black;
+}
+
+.tappedpanes {
+    -fx-background-color: floralwhite;
+    -fx-background-radius: 15;
+    -fx-border-radius: 10;
+    -fx-border-color:  #009900;
+     
+
+}
+
+.stagebakground {
+    -fx-background-color: turquoise;
+}
+
+.buttons2 {
+    -fx-background-radius: 6;
+    -fx-border-color:  coral;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5; 
+    -fx-background-color: floralwhite;
+        
+}
+
+
+.buttons2:hover{
+    -fx-background-color: #009900;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: black;
+    -fx-border-color:  #009900;
+}
+
+.fields {
+    -fx-border-color: green;
+    -fx-border-radius: 15;
+    -fx-background-radius: 20;
+    
+}
+
+.bluefields {
+    -fx-border-color: #0000ff;
+    -fx-border-radius: 15;
+    -fx-background-radius: 20;
+    
+}
+
+.image {
+    -fx-border-color:  #006666;
+    -fx-image-borders: 3;
+   
+}
+
+.tableview.colum-header-background {
+    -fx-background-color:  #89ffa1;
+}
+
+
+.gridBackground {
+    -fx-background-image:url("../daviscahtech_chatdemo/Resources/grid.png");
+    -fx-background-repeat: repeat;
+    -fx-background-size: stretch;
+    
+}
+
+
+.accordion > .titled-pane > .title {
+    -fx-background-color: derive(#009900,80%);
+    -fx-background-insets: 1;
+    -fx-background-radius: 8;
+}
+
+.tab-pane > .tab-header-area > .tab-header-background {
+    -fx-background-color: null;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected > .tab-container > .tab-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: blue;
+}
+
+#greenTab {
+    -fx-background-color: deepskyblue;
+    -fx-text-fill: white;
+}
+
+
